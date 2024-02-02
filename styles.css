@@ -1,0 +1,284 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 100%;
+}
+html{
+position: relative;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+
+}
+
+ul,
+h1,
+li {
+    display: inline;
+    padding: 15px;
+    margin-top: 5px;
+    position: relative;
+    bottom: 20px;
+    justify-content: space-between;
+    z-index: 5;
+
+
+}
+
+ul {
+    margin-left: 500px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+
+}
+
+li:hover {
+    color: gold;
+}
+
+.move2 {
+    color: aliceblue;
+    position: relative;
+    top: 100px;
+    cursor: pointer;
+    left: 100px;
+
+}
+
+.page1 {
+    background-color: black;
+    height: 500px;
+    width: 1349px;
+    color: gold;
+}
+
+.move1 {
+    position: relative;
+    top: 100px;
+    cursor: pointer;
+    left: 50px;
+}
+
+.img1 {
+    height: 88px;
+    width: 88px;
+    display: inline-flex;
+    position: relative;
+    top: 7px;
+}
+
+.img2 {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 800px;
+    bottom: 500px;
+}
+
+.move3,
+.move4 {
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+.move3 {
+    color: aliceblue;
+}
+
+.move4 {
+    color: gold;
+
+}
+
+.text {
+    display: inline;
+    background-color: black;
+    border-color: aliceblue;
+    border-width: 5px;
+    border-style: ridge;
+
+}
+
+.img3 {
+    position: relative;
+    bottom: 550px;
+    height: 100px;
+    right: 200px;
+
+}
+
+.text2 {
+    display: block;
+    position: relative;
+    bottom: 480px;
+    margin-left: 0px;
+    text-decoration: underline;
+    z-index: 7;
+}
+
+.text3 {
+    display: inline;
+
+
+    position: relative;
+    bottom: 450px;
+    margin-left: 0px;
+
+    z-index: 8;
+}
+
+.text4 {
+    display: block;
+    position: relative;
+    bottom: 410px;
+    margin-left: 0px;
+    text-decoration: underline;
+    z-index: 6;
+}
+
+.page2 {
+    background-color: yellow;
+    z-index: 5;
+    height: 500px;
+    width: 1349px;
+    position: relative;
+    bottom: 747px;
+}
+
+.text5 {
+    position: relative;
+    left: 240px;
+    top: 370px;
+}
+
+.text6 {
+    position: relative;
+    bottom: 700px;
+}
+
+.contact {
+    background-color: white;
+    border-color: black;
+    border-width: 5px;
+    border-style: ridge;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    bottom: 550px;
+    left: 430px;
+    box-shadow: rgba(14, 2, 2, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(39, 6, 27, 0.2) 15px 15px, rgba(15, 1, 10, 0.1) 20px 20px, rgba(14, 1, 9, 0.05) 25px 25px;
+}
+
+.msg {
+    position: relative;
+    bottom: 640px;
+}
+
+.same {
+    position: relative;
+    left: 150px;
+    top: 50px;
+
+
+}
+
+.button {
+    position: relative;
+    top: 80px;
+    left: 110px;
+}
+
+.connect {
+    position: relative;
+    bottom: 450px;
+}
+
+.inline {
+    display: inline-flex;
+    position: relative;
+    bottom: 400px;
+    left: 550px;
+}
+
+.inline2 {
+    display: inline-flex;
+    position: relative;
+    bottom: 434px;
+    left: 670px;
+
+}
+
+.tele {
+    position: relative;
+    bottom: 350px;
+    left: 524px;
+}
+
+.foottext {
+    display: block;
+
+    color: aliceblue;
+
+    position: relative;
+    top: 50px;
+
+}
+
+.footer {
+    background-color: black;
+    height: 100px;
+ 
+}
+
+
+
+.fixed {
+    cursor: pointer;
+    position: relative;
+    z-index: 200000;
+    color: black;
+    bottom: 50px;
+
+
+
+}
+
+.fixed:hover {
+    color: brown;
+
+}
+
+.stickyicon {
+  
+    position: relative;
+    left: 1200px;
+    bottom: 1750px;
+    z-index: 7;
+    color: green;
+    cursor: pointer;
+}
+
+.stickyicon:hover{
+color: brown;
+}
